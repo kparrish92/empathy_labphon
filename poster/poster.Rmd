@@ -1,0 +1,111 @@
+---
+title: The Roles of Empathy and Openness in L2 Spanish accent ability
+author:
+  - name: Kyle Parrish
+    affil: 1
+    orcid: '0000-0001-8227-1370'
+affiliation:
+  - num: 1
+    address: Department of Spanish and Portuguese, Rutgers University
+column_numbers: 3
+logoright_name: labphon_18.png
+logoleft_name: ru.png
+author_textcol: "#FFFFFF"
+primary_colour: "grey"
+secondary_colour: "#636b70"
+output: 
+  posterdown::posterdown_html:
+    self_contained: false
+bibliography: r-references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r libs, include=FALSE}
+library(tidyverse)
+library(here)
+source(here::here("scripts", "05_load_data.R"))
+```
+
+# Introduction
+
+Previous work in monolinguals and bilinguals [@esteve2020empathy; @casillas_emp_HLS2021] has shown that individuals with higher levels of empathy possess a perceptual advantage over their less empathetic peers. 
+In particular, monolingual French speakers have shown evidence of better disambiguation of lexical meaning when only intonational, rather than lexical, cues were available [@esteve2020empathy].
+In L2 learning, English L1-Spanish L2 learners better distinguished questions from statements in their L2 when they had higher empathy and proficiency was held constant. 
+
+Few studies have examined how individual differences in empathy are associated with L2 production.
+**Lewandowski** found that the L2 speech of phonetically talented L2 English L1 German speakers who were more open, but not more empathetic, converged to a higher degree to a particular L2 dialect in conversation. 
+
+The present study examined this question by measuring the accentedness and comprehensibility of spontaneous L2 Spanish production and each L2 speaker's level of empathy and openness. 
+
+## Objectives
+
+1. Examine whether an association exists between **empathy** and L2 foreign accent when proficiency is held constant.  
+
+2. Examine whether an association exists between **openness** and L2 foreign accent when proficiency is held constant.
+
+# Methods
+
+`r nrow(ratings_means)` learners of L2 Spanish completed the Hunter Story Task used in previous studies examining the relationship between intelligibility, comprehensibility and accentedness (**Nagle** and Munro and Derwing**).
+During the task, learners saw a series of pictures (Figure 1) and were instructed to record a narration of the events pictured in the story. 
+The participants were also shown three relevant vocabulary words in Spanish and English in writing in tandem with the picture. 
+Empathy and Openness were measured using two likert-style questionnaires, the Empathy Quotient questionnaire (**cite**), a 60 item questionnaire, 
+and the IPIP 50 item questionnaire (Goldberg 92), 10 of which correspond to openness. 
+Finally, L2 proficiency was measured using the Spanish LexTALE, a lexical decision task designed to measure vocabulary size as a proxy to overall proficiency.
+
+Two utterances were extracted from each Hunter Story and presented to L1 speakers of Mexican Spanish (n = `r nrow(use_df)`), who rated each utterance on a 1-9 continuous likert-style scale for accentendess and comprehensibility. 
+Mean utterance length was **X**, and the mean words per utterance was **Y**. 
+In total, each rater generated 103 judgments of 78 stimuli, for a total of 8034 data points for each accentedness and comprehensibility.  
+ 
+The data were analyzed using two Bayesian multilevel regression models, in which the outcome variables of each model were accentedness and comprehensibility ratings that were treated as continuous variables, since the continous scale allowed for ratings to fall between whole numbers.
+In both models, each outcome was analyzed as a function empathy score, openness score, and proficiency (LexTALE score), with a random slope by participant for empathy and openness and a random intercept for rater.
+
+```{r hunterstory, out.width='80%', fig.align='center', fig.cap='The Hunter Story prompt used in Munro & Derwing (1995) and Huensch & Nagle (2021)', fig.height=5}
+knitr::include_graphics(here::here("poster", "figs", "hunter_story.png"))
+```
+
+# Results
+
+There was no effect for any of the predictors on either outcome variable. Table \@ref(tab:mytable) lists the characteristics of the native speaking Spanish raters.
+
+```{r mytable, out.width='80%'}
+read.csv(here("data", "tidy", "rater_desc.csv")) %>% 
+  select(Measure, Value) %>% 
+  knitr::kable(caption = 'Rater Descriptive Statistics',align = 'c',"html")
+```
+
+Table \@ref(tab:mytable2) lists similar information for the L2 Spanish learners.
+
+```{r mytable2, out.width='80%'}
+read.csv(here("data", "tidy", "l2_desc.csv")) %>% 
+  select(Measure, Value) %>% 
+  knitr::kable(caption = 'L2 Learner Descriptive Statistics',align = 'c',"html")
+```
+
+Figure \@ref(fig:standard-plot2) shows the posterior distributions of each predictor for the outcome `accent rating`. 
+The red dashed line represent the Region of Practical Equivalence (ROPE).
+The upper and lower bounds are .23 and -.23 units and are in rating units (scale 1-9); this ROPE corresponds to an effect size of +/- .1.
+Figure \@ref(fig:standard-plot) shows an analogous model in which comprehensibility is the outcome. 
+In both cases, one can see that the entire posterior distribution falls within the ROPE, suggesting that there is no meaningful effect present.
+ 
+
+```{r standard-plot2, out.width='80%', fig.align='center', fig.cap='Accentedness Ratings as a function of empathy, openness and proficiency', fig.height=5}
+knitr::include_graphics(here::here("poster", "figs", "acc_plot.png"))
+```
+
+```{r standard-plot, out.width='80%', fig.align='center', fig.cap='Comprehensibility Ratings as a function of empathy, openness and proficiency', fig.height=5}
+knitr::include_graphics(here::here("poster", "figs", "comp_plot.png"))
+```
+# Conclusion
+
+There was no impact of empathy or openness on either accentedness or comprehensibility. 
+The current data suggests that the perceptual advantage in the L1 and L2 does not extend to global production. 
+Next steps include a segmental analysis of the production data in which, for example, VOT could be analyzed as a function of empathy. 
+
+```{r, include=FALSE}
+knitr::write_bib(c('knitr','rmarkdown','posterdown','pagedown'), 'packages.bib')
+```
+
+# References

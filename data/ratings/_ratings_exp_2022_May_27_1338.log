@@ -1,0 +1,62 @@
+0.6357 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.9131 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fdbd2c45ba8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdbd1d42cc0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.9135 	EXP 	window1: mouseVisible = True
+4.9135 	EXP 	window1: recordFrameIntervals = False
+5.0786 	EXP 	window1: recordFrameIntervals = True
+5.2620 	EXP 	window1: recordFrameIntervals = False
+5.9464 	EXP 	window1: mouseVisible = True
+5.9904 	EXP 	Created eng_proficiency = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(10, 20, 30, 40, 50, 60, 70, 80, 90, 100), name='eng_proficiency', opacity=None, pos=(0, 0.2), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+6.0071 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.0115 	EXP 	window1: mouseVisible = True
+6.0252 	EXP 	Created eng_proficiency_2 = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9), name='eng_proficiency_2', opacity=None, pos=(0, 0.2), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5, 6, 7, 8, 9]), units='height', win=Window(...))
+6.0355 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.0535 	EXP 	eng_proficiency: autoLog = True
+6.0535 	EXP 	eng_proficiency: markerPos = None
+6.0535 	EXP 	eng_proficiency: rating = None
+6.0535 	EXP 	eng_proficiency: markerPos = None
+6.0535 	EXP 	eng_proficiency: contrast = 1.0
+6.0535 	EXP 	eng_proficiency: autoLog = True
+6.0535 	EXP 	eng_proficiency: styleTweaks = []
+6.0535 	EXP 	eng_proficiency: style = 'rating'
+6.0535 	EXP 	eng_proficiency: styleTweaks = []
+6.0535 	EXP 	eng_proficiency_2: autoLog = True
+6.0535 	EXP 	eng_proficiency_2: markerPos = None
+6.0535 	EXP 	eng_proficiency_2: rating = None
+6.0535 	EXP 	eng_proficiency_2: markerPos = None
+6.0535 	EXP 	eng_proficiency_2: contrast = 1.0
+6.0535 	EXP 	eng_proficiency_2: autoLog = True
+6.0535 	EXP 	eng_proficiency_2: styleTweaks = []
+6.0535 	EXP 	eng_proficiency_2: style = 'rating'
+6.0535 	EXP 	eng_proficiency_2: styleTweaks = []
+6.0535 	EXP 	eng_proficiency: markerPos = None
+6.0535 	EXP 	eng_proficiency: markerPos = None
+6.0535 	EXP 	eng_proficiency: rating = None
+6.0535 	EXP 	eng_proficiency: autoDraw = True
+6.0535 	EXP 	text: autoDraw = True
+7.0624 	DATA 	Mouse: Left button down, pos=(594,627)
+7.0779 	EXP 	eng_proficiency: markerPos = 4.24
+7.0940 	EXP 	eng_proficiency: markerPos = 4.24
+7.1116 	EXP 	eng_proficiency: markerPos = 4.24
+7.1283 	EXP 	eng_proficiency: markerPos = 4.24
+7.1288 	DATA 	Mouse:  Left button up, pos=(594,627)
+7.1446 	EXP 	eng_proficiency: markerPos = 4.24
+7.1446 	EXP 	eng_proficiency: rating = 4.24
+7.1620 	EXP 	eng_proficiency: autoDraw = False
+7.1620 	EXP 	text: autoDraw = False
+7.1620 	EXP 	eng_proficiency_2: markerPos = None
+7.1620 	EXP 	eng_proficiency_2: markerPos = None
+7.1620 	EXP 	eng_proficiency_2: rating = None
+7.1620 	EXP 	eng_proficiency_2: autoDraw = True
+7.1620 	EXP 	text_2: autoDraw = True
+8.6620 	DATA 	Mouse: Left button down, pos=(646,639)
+8.6772 	EXP 	eng_proficiency_2: markerPos = 4.342222222222222
+8.6950 	EXP 	eng_proficiency_2: markerPos = 4.342222222222222
+8.7114 	EXP 	eng_proficiency_2: markerPos = 4.342222222222222
+8.7281 	EXP 	eng_proficiency_2: markerPos = 4.342222222222222
+8.7356 	DATA 	Mouse:  Left button up, pos=(646,639)
+8.7436 	EXP 	eng_proficiency_2: markerPos = 4.342222222222222
+8.7618 	EXP 	eng_proficiency_2: markerPos = 4.342222222222222
+8.7618 	EXP 	eng_proficiency_2: rating = 4.342222222222222
+8.7781 	EXP 	eng_proficiency_2: autoDraw = False
+8.7781 	EXP 	text_2: autoDraw = False
+8.7882 	EXP 	window1: mouseVisible = True

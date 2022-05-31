@@ -1,0 +1,164 @@
+0.7278 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5356 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd78e568b38>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd78c9785f8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.5369 	EXP 	window1: mouseVisible = True
+5.5370 	EXP 	window1: recordFrameIntervals = False
+5.6903 	EXP 	window1: recordFrameIntervals = True
+5.8812 	WARNING 	t of last frame was 20.54ms (=1/48)
+6.0582 	EXP 	window1: recordFrameIntervals = False
+6.9187 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1289 	EXP 	window1: mouseVisible = True
+7.1541 	EXP 	Created eng_proficiency = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(10, 20, 30, 40, 50, 60, 70, 80, 90, 100), name='eng_proficiency', opacity=None, pos=(0, 0.2), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+7.1699 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1744 	EXP 	window1: mouseVisible = True
+7.1900 	EXP 	Created eng_proficiency_2 = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9), name='eng_proficiency_2', opacity=None, pos=(0, 0.2), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5, 6, 7, 8, 9]), units='height', win=Window(...))
+7.2058 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.2104 	EXP 	window1: mouseVisible = True
+7.2237 	EXP 	Created accent_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9), name='accent_rating', opacity=None, pos=(0, -0.2), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5, 6, 7, 8, 9]), units='height', win=Window(...))
+7.2439 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.2467 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+7.2989 	EXP 	Sound sound_2 set volume 1.000
+7.3039 	EXP 	window1: mouseVisible = True
+7.3232 	EXP 	Created accent_rating_2 = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9), name='accent_rating_2', opacity=None, pos=(0, -0.2), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5, 6, 7, 8, 9]), units='height', win=Window(...))
+7.3436 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.3456 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+7.3456 	EXP 	Sound sound_1 set volume 1.000
+7.3690 	EXP 	eng_proficiency: autoLog = True
+7.3690 	EXP 	eng_proficiency: markerPos = None
+7.3690 	EXP 	eng_proficiency: rating = None
+7.3690 	EXP 	eng_proficiency: markerPos = None
+7.3690 	EXP 	eng_proficiency: contrast = 1.0
+7.3690 	EXP 	eng_proficiency: autoLog = True
+7.3690 	EXP 	eng_proficiency: styleTweaks = []
+7.3690 	EXP 	eng_proficiency: style = 'rating'
+7.3690 	EXP 	eng_proficiency: styleTweaks = []
+7.3690 	EXP 	eng_proficiency_2: autoLog = True
+7.3690 	EXP 	eng_proficiency_2: markerPos = None
+7.3690 	EXP 	eng_proficiency_2: rating = None
+7.3690 	EXP 	eng_proficiency_2: markerPos = None
+7.3690 	EXP 	eng_proficiency_2: contrast = 1.0
+7.3690 	EXP 	eng_proficiency_2: autoLog = True
+7.3690 	EXP 	eng_proficiency_2: styleTweaks = []
+7.3690 	EXP 	eng_proficiency_2: style = 'rating'
+7.3690 	EXP 	eng_proficiency_2: styleTweaks = []
+7.3690 	EXP 	accent_rating: autoLog = True
+7.3690 	EXP 	accent_rating: markerPos = None
+7.3690 	EXP 	accent_rating: rating = None
+7.3690 	EXP 	accent_rating: markerPos = None
+7.3690 	EXP 	accent_rating: contrast = 1.0
+7.3690 	EXP 	accent_rating: autoLog = True
+7.3690 	EXP 	accent_rating: styleTweaks = []
+7.3690 	EXP 	accent_rating: style = 'rating'
+7.3690 	EXP 	accent_rating: styleTweaks = []
+7.3690 	EXP 	accent_rating_2: autoLog = True
+7.3690 	EXP 	accent_rating_2: markerPos = None
+7.3690 	EXP 	accent_rating_2: rating = None
+7.3690 	EXP 	accent_rating_2: markerPos = None
+7.3690 	EXP 	accent_rating_2: contrast = 1.0
+7.3690 	EXP 	accent_rating_2: autoLog = True
+7.3690 	EXP 	accent_rating_2: styleTweaks = []
+7.3690 	EXP 	accent_rating_2: style = 'rating'
+7.3690 	EXP 	accent_rating_2: styleTweaks = []
+7.3690 	EXP 	text_3: autoDraw = True
+8.0218 	EXP 	text_3: autoDraw = False
+8.0218 	EXP 	eng_proficiency: markerPos = None
+8.0218 	EXP 	eng_proficiency: markerPos = None
+8.0218 	EXP 	eng_proficiency: rating = None
+8.0218 	EXP 	eng_proficiency: autoDraw = True
+8.0218 	EXP 	text: autoDraw = True
+10.4639 	DATA 	Mouse: Left button down, pos=(565,625)
+10.4641 	DATA 	Mouse:  Left button up, pos=(565,625)
+10.4643 	DATA 	Mouse: Left button down, pos=(565,625)
+10.4913 	EXP 	eng_proficiency: markerPos = 3.95
+10.5081 	EXP 	eng_proficiency: markerPos = 3.95
+10.5247 	EXP 	eng_proficiency: markerPos = 3.95
+10.5416 	EXP 	eng_proficiency: markerPos = 3.95
+10.5586 	EXP 	eng_proficiency: markerPos = 3.95
+10.5743 	EXP 	eng_proficiency: markerPos = 3.95
+10.5913 	EXP 	eng_proficiency: markerPos = 3.95
+10.5918 	DATA 	Mouse:  Left button up, pos=(565,625)
+10.6081 	EXP 	eng_proficiency: markerPos = 3.95
+10.6081 	EXP 	eng_proficiency: rating = 3.95
+10.6252 	EXP 	eng_proficiency: autoDraw = False
+10.6252 	EXP 	text: autoDraw = False
+10.6252 	EXP 	eng_proficiency_2: markerPos = None
+10.6252 	EXP 	eng_proficiency_2: markerPos = None
+10.6252 	EXP 	eng_proficiency_2: rating = None
+10.6252 	EXP 	eng_proficiency_2: autoDraw = True
+10.6252 	EXP 	text_2: autoDraw = True
+11.9421 	DATA 	Mouse: Left button down, pos=(615,625)
+11.9422 	DATA 	Mouse:  Left button up, pos=(615,625)
+11.9424 	DATA 	Mouse: Left button down, pos=(615,625)
+11.9582 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+11.9745 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+11.9916 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0083 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0247 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0413 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0577 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0748 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0916 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.0921 	DATA 	Mouse:  Left button up, pos=(615,625)
+12.1081 	EXP 	eng_proficiency_2: markerPos = 4.066666666666666
+12.1081 	EXP 	eng_proficiency_2: rating = 4.066666666666666
+12.1171 	EXP 	Imported cond_file.csv as conditions, 78 conditions, 1 params
+12.1196 	EXP 	Created sequence: random, trialTypes=78, nReps=1, seed=None
+12.1202 	EXP 	New trial (rep=0, index=0): OrderedDict([('stim', '469635_sentence_2.wav')])
+12.1498 	EXP 	eng_proficiency_2: autoDraw = False
+12.1498 	EXP 	text_2: autoDraw = False
+12.1498 	EXP 	accent_rating: markerPos = None
+12.1498 	EXP 	accent_rating: markerPos = None
+12.1498 	EXP 	accent_rating: rating = None
+12.1498 	EXP 	text_6: autoDraw = True
+12.6433 	EXP 	accent_rating: autoDraw = True
+12.6433 	EXP 	text_4: autoDraw = True
+12.6573 	EXP 	text_6: autoDraw = False
+14.5589 	DATA 	Mouse: Left button down, pos=(886,272)
+14.5590 	DATA 	Mouse:  Left button up, pos=(886,272)
+14.5591 	DATA 	Mouse: Left button down, pos=(886,272)
+14.5749 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.5915 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.6082 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.6240 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.6411 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.6580 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.6748 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.6818 	DATA 	Mouse:  Left button up, pos=(886,271)
+14.6915 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.7082 	EXP 	accent_rating: markerPos = 6.475555555555555
+14.7082 	EXP 	accent_rating: rating = 6.475555555555555
+14.7254 	EXP 	accent_rating: autoDraw = False
+14.7254 	EXP 	text_4: autoDraw = False
+14.7254 	EXP 	text_6: autoDraw = False
+14.7254 	EXP 	accent_rating_2: markerPos = None
+14.7254 	EXP 	accent_rating_2: markerPos = None
+14.7254 	EXP 	accent_rating_2: rating = None
+14.7254 	EXP 	text_7: autoDraw = True
+15.2248 	EXP 	accent_rating_2: autoDraw = True
+15.2248 	EXP 	text_5: autoDraw = True
+15.2248 	EXP 	text_7: autoDraw = False
+16.0636 	DATA 	Mouse: Left button down, pos=(826,272)
+16.0638 	DATA 	Mouse:  Left button up, pos=(826,272)
+16.0639 	DATA 	Mouse: Left button down, pos=(826,272)
+16.0915 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.1078 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.1247 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.1415 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.1581 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.1746 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.1913 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.2083 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.2087 	DATA 	Mouse:  Left button up, pos=(826,271)
+16.2242 	EXP 	accent_rating_2: markerPos = 5.942222222222222
+16.2242 	EXP 	accent_rating_2: rating = 5.942222222222222
+16.2263 	EXP 	New trial (rep=0, index=1): OrderedDict([('stim', '479845_sentence_2.wav')])
+16.2530 	EXP 	accent_rating_2: autoDraw = False
+16.2530 	EXP 	text_5: autoDraw = False
+16.2530 	EXP 	text_7: autoDraw = False
+16.2530 	EXP 	accent_rating: markerPos = None
+16.2530 	EXP 	accent_rating: markerPos = None
+16.2530 	EXP 	accent_rating: rating = None
+16.2530 	EXP 	text_6: autoDraw = True
+16.7416 	EXP 	accent_rating: autoDraw = True
+16.7416 	EXP 	text_4: autoDraw = True
+16.7583 	EXP 	text_6: autoDraw = False
+17.6187 	EXP 	window1: mouseVisible = True

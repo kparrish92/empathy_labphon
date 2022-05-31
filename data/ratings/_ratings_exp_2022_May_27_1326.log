@@ -1,0 +1,38 @@
+0.6370 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+45.2821 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+45.9063 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa31cbadac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa358b62a58>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+45.9066 	EXP 	window1: mouseVisible = True
+45.9066 	EXP 	window1: recordFrameIntervals = False
+46.0729 	EXP 	window1: recordFrameIntervals = True
+46.2564 	EXP 	window1: recordFrameIntervals = False
+46.8829 	EXP 	window1: mouseVisible = True
+46.9278 	EXP 	Created eng_proficiency = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9), name='eng_proficiency', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5, 6, 7, 8, 9]), units='height', win=Window(...))
+46.9491 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+47.0066 	EXP 	eng_proficiency: autoLog = True
+47.0066 	EXP 	eng_proficiency: markerPos = None
+47.0066 	EXP 	eng_proficiency: rating = None
+47.0066 	EXP 	eng_proficiency: markerPos = None
+47.0066 	EXP 	eng_proficiency: contrast = 1.0
+47.0066 	EXP 	eng_proficiency: autoLog = True
+47.0066 	EXP 	eng_proficiency: styleTweaks = []
+47.0066 	EXP 	eng_proficiency: style = 'rating'
+47.0066 	EXP 	eng_proficiency: styleTweaks = []
+47.0066 	EXP 	eng_proficiency: markerPos = None
+47.0066 	EXP 	eng_proficiency: markerPos = None
+47.0066 	EXP 	eng_proficiency: rating = None
+47.0066 	EXP 	eng_proficiency: autoDraw = True
+47.0066 	EXP 	text: autoDraw = True
+49.4963 	DATA 	Mouse: Left button down, pos=(604,456)
+49.5229 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.5389 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.5560 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.5730 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.5890 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.6057 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.6132 	DATA 	Mouse:  Left button up, pos=(604,456)
+49.6223 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.6390 	EXP 	eng_proficiency: markerPos = 3.968888888888889
+49.6390 	EXP 	eng_proficiency: rating = 3.968888888888889
+49.6556 	EXP 	eng_proficiency: autoDraw = False
+49.6556 	EXP 	text: autoDraw = False
+49.6653 	EXP 	window1: mouseVisible = True
