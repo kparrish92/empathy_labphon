@@ -18,7 +18,7 @@ desc_df_l2 = analysis_df_m %>%
                                    round(sd(eq_score), 
                                          digits = 2), 
                                    ")"),
-            "Mean Openness" = paste0(round(mean(open_score), digits = 2), 
+            "Mean Extroversion" = paste0(round(mean(open_score), digits = 2), 
                                     " (", 
                                     round(sd(open_score), 
                                           digits = 2), 
