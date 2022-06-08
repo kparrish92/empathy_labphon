@@ -39,7 +39,7 @@ Few studies have examined how individual differences in empathy are associated w
 @lewandowski2019phonetic found that the L2 speech of phonetically talented L2 English L1 German speakers who were more open, but not more empathetic, converged to a higher degree to a particular L2 dialect in conversation. 
 The present study examined this question by measuring the accentedness and comprehensibility of spontaneous L2 Spanish production and each L2 speaker's level of empathy and extroversion. 
 
-**Research Question**: Examine whether an association exists between **empathy** or **extroversion** and L2 foreign accent when proficiency is held constant.  
+**Research Question**: Will more  **empathetic** or **extorverted** L2 speakers be rated as less accented?
 
 # Methods
 
@@ -53,7 +53,7 @@ knitr::include_graphics(here::here("poster", "figs", "hunter_story.png"))
 ```
 
 Two utterances were extracted from each Hunter Story and presented to L1 speakers of Mexican Spanish (n = `r nrow(use_df)`), who rated each utterance on a 1-9 continuous likert-style scale for accentendess and comprehensibility. 
-In total, each rater generated 103 judgments of 78 stimuli, for a total of 8034 data points for each accentedness and comprehensibility.  
+In total, 103 raters generated 78 judgments each, for a total of 8034 data points for each accentedness and comprehensibility.  
  
 The data were analyzed using two Bayesian multilevel regression models, in which the outcome variables of each model were accentedness and comprehensibility ratings that were treated as continuous variables, since the continuous scale allowed for ratings to fall between whole numbers.
 In both models, each outcome was analyzed as a function empathy score, extroversion score, and proficiency (LexTALE score), with a random slope by participant for empathy and extroversion and a random intercept for rater.
