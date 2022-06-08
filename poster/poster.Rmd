@@ -93,8 +93,4 @@ knitr::include_graphics(here::here("poster", "figs", "comp_plot.png"))
 There was no impact of empathy or extroversion on either accentedness or comprehensibility. 
 The current data suggests that the perceptual advantage in the L1 and L2 does not extend to global production. 
 
-```{r, include=FALSE}
-knitr::write_bib(c('knitr','rmarkdown','posterdown','pagedown'), 'packages.bib')
-```
-
 # References
